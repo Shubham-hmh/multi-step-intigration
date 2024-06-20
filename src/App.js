@@ -8,7 +8,7 @@ import {
   Route, Routes
 } from 'react-router-dom';
 
-axios.defaults.baseURL = "http://localhost:4000";
+axios.defaults.baseURL = "https://multi-step-front.onrender.com";
 axios.defaults.withCredentials = true
 
 const App = () => {
